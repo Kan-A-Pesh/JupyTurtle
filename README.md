@@ -1,16 +1,17 @@
 # JupyTurtle
 
 Une intégration de Turtle simple et rapide pour JupyterHub.\
-***⚠ Remarque:* JupyTurtle est en phase de développement et donc n'est pas optimisé!**
+***⚠ Remarque:* JupyTurtle est en phase de développement et donc n'est pas optimisé!**\
+Notez que JupyTurtle fonctionne à base d'images SVG, et nécéssite les modules `IPython` et `math` pour fonctionner correctement.
 
 ## Installation
 Pour utiliser JupyTurtle,
 
-#### 1️⃣ Téléchargez le fichier suivant: [jupyTurtle.py](https://raw.githubusercontent.com/Kan-A-Pesh/JupyTurtle/master/jupyTurtle.py)
+### 1️⃣ Téléchargez le fichier suivant: [jupyTurtle.py](https://raw.githubusercontent.com/Kan-A-Pesh/JupyTurtle/master/jupyTurtle.py)
 
-#### 2️⃣ Déposer ce fichier dans le dossier de votre projet
+### 2️⃣ Déposer ce fichier dans le dossier de votre projet
 
-#### 3️⃣ Importez JupyTurtle
+### 3️⃣ Importez JupyTurtle
 ```python
 from jupyTurtle import Turtle
 ```
@@ -19,13 +20,13 @@ Et utilisez une tortue:
 maTortue = Turtle()
 ```
 
-#### 4️⃣ Bravo! 🎉
+### 4️⃣ Bravo! 🎉
 Vous pouvez désormais utiliser JupyTurtle
 Pour plus d'information, veuillez consulter la documentation de JupyTurtle
 
 **Voici quelques petits exemples:**
 
-*Un octogone:*
+*🛑 Un octogone:*
 ```python
 from jupyTurtle import Turtle
 
@@ -38,7 +39,7 @@ for i in range(8):
 ![octogone](https://user-images.githubusercontent.com/74819837/156070386-340c9dff-dfe9-452b-8fc6-7f5b57187f4f.png)
 
 
-*Une étoile:*
+*✨ Une étoile:*
 ```python
 from jupyTurtle import Turtle
 
